@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/reactjs-training-github/static/css/main.aff59d47.chunk.css",
+    "main.js": "/reactjs-training-github/static/js/main.a15297eb.chunk.js",
+    "main.js.map": "/reactjs-training-github/static/js/main.a15297eb.chunk.js.map",
+    "runtime-main.js": "/reactjs-training-github/static/js/runtime-main.28375562.js",
+    "runtime-main.js.map": "/reactjs-training-github/static/js/runtime-main.28375562.js.map",
+    "static/js/2.e90a24e9.chunk.js": "/reactjs-training-github/static/js/2.e90a24e9.chunk.js",
+    "static/js/2.e90a24e9.chunk.js.map": "/reactjs-training-github/static/js/2.e90a24e9.chunk.js.map",
+    "index.html": "/reactjs-training-github/index.html",
+    "precache-manifest.c18c5d475a0ba0f62f70b37ecd7a20a2.js": "/reactjs-training-github/precache-manifest.c18c5d475a0ba0f62f70b37ecd7a20a2.js",
+    "service-worker.js": "/reactjs-training-github/service-worker.js",
+    "static/css/main.aff59d47.chunk.css.map": "/reactjs-training-github/static/css/main.aff59d47.chunk.css.map",
+    "static/js/2.e90a24e9.chunk.js.LICENSE": "/reactjs-training-github/static/js/2.e90a24e9.chunk.js.LICENSE",
+    "static/media/background.jpg": "/reactjs-training-github/static/media/background.36d83c85.jpg",
+    "static/media/nbslogo.png": "/reactjs-training-github/static/media/nbslogo.0034edd1.png",
+    "static/media/pencil.png": "/reactjs-training-github/static/media/pencil.dfff02f8.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.28375562.js",
+    "static/js/2.e90a24e9.chunk.js",
+    "static/css/main.aff59d47.chunk.css",
+    "static/js/main.a15297eb.chunk.js"
+  ]
+}
