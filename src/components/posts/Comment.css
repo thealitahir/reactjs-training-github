@@ -1,0 +1,102 @@
+.comment-main-input {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.comment-main-button {
+  text-align: center;
+  margin-top: 5px;
+  margin-left: 20px;
+}
+.comment-list-main {
+  display: flow-root;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.avatar {
+  width: 6%;
+  float: left;
+}
+.comment-input {
+  border: 1px solid lightgrey;
+  padding: 5px;
+  width: 98%;
+  float: left;
+  height: 50px;
+}
+.comment-body {
+  flex: 2;
+  order: 2;
+  display: flex;
+  flex-direction: column;
+  margin-left: 8%;
+}
+.comment-button {
+  color: white;
+  width: 25%;
+  display: block;
+  background-color: #2059a6;
+  height: 35px;
+}
+ul {
+  list-style-type: none;
+}
+.date-text {
+  font-size: x-small;
+  color: grey;
+}
+.comment-text {
+  margin-top: 0%;
+}
+.button-box{
+    display: flex;
+    flex-direction: row;
+}
+.button-box1 {
+  background: none !important;
+  border: none;
+  padding: 0 !important;
+  /*optional*/
+  font-family: arial, sans-serif;
+  /*input has OS specific font-family*/
+  color: #069;
+  text-decoration: underline;
+  cursor: pointer;
+  margin-right: 10%;
+}
+.button-box2 {
+  background: none !important;
+  border: none;
+  padding: 0 !important;
+  /*optional*/
+  font-family: arial, sans-serif;
+  /*input has OS specific font-family*/
+  color: #069;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.edit-commet-main{
+  margin-left: 10px;
+}
+.edit-comment-input{
+  width: 44%;
+}
+.edit-comment-btn{
+  margin-left: 10px;
+}
+.separator {
+  width: 98%;
+  float: left;
+}
+@media only screen and (max-width: 720px) {
+  .comment-button {
+    display: inline-block;
+    color: white;
+    width: 25%;
+    background-color: #2059a6;
+    height: 35px;
+  }
+}

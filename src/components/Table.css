@@ -1,0 +1,58 @@
+#posts {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  text-align: center;
+}
+
+#posts td,
+#posts th {
+  padding: 8px;
+}
+
+#posts tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+#posts tr:hover {
+  background-color: #ddd;
+}
+
+#posts th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: darkslategrey;
+  color: white;
+}
+
+.container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.checkboxes {
+  width: 2% !important;
+  text-align: center !important;
+}
+.links{
+  padding-right: 15px;
+  color: black;
+}

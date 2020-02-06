@@ -1,0 +1,28 @@
+.like-main{
+  display: flex;
+  text-align: center;
+}
+.like-main button {
+  width: 80px;
+  height: 40px;
+  margin: 15px;
+}
+.green-button {
+  background-color: green;
+  color: white;
+}
+.red-button {
+  background-color: red;
+  color: white;
+}
+@media only screen and (max-width: 720px) {
+  .like-main{
+    display: table;
+    text-align: center;
+  }
+  .like-main button {
+    width: 80px;
+    height: 40px;
+    margin: 15px;
+  }
+}
