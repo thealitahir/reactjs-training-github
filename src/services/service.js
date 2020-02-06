@@ -4,7 +4,7 @@ import { URL } from "../global.js";
 const Services = {
   postComment: payload => {
     return axios
-      .post(`${URL}/posts/${payload.id}/comments`, payload)
+      .post(`${URL}posts/${payload.id}/comments`, payload)
       .then(res => {
         return {
           data: res.data
@@ -17,7 +17,7 @@ const Services = {
 
   getComments: payload => {
     return axios
-      .get(`${URL}/posts/${payload}/comments?sortBy=createdAt&order=desc`)
+      .get(`${URL}posts/${payload}/comments?sortBy=createdAt&order=desc`)
       .then(res => {
         return {
           data: res.data
@@ -30,7 +30,7 @@ const Services = {
 
   deleteComments: payload => {
     return axios
-      .delete(`${URL}/posts/${payload.id}/comments/${payload.comment_id}`)
+      .delete(`${URL}posts/${payload.id}/comments/${payload.comment_id}`)
       .then(res => {
         return {
           data: res.data
@@ -43,7 +43,7 @@ const Services = {
 
   editComment: payload => {
     return axios
-      .put(`${URL}/posts/${payload.id}/comments/${payload.comment_id}`, payload)
+      .put(`${URL}posts/${payload.id}/comments/${payload.comment_id}`, payload)
       .then(res => {
         return {
           data: res.data
@@ -56,7 +56,7 @@ const Services = {
 
   getPosts: payload => {
     return axios
-      .get(`${URL}/posts${payload.postParams.params}`)
+      .get(`${URL}posts${payload.postParams.params}`)
       .then(res => {
         return {
           data: res.data
@@ -69,7 +69,7 @@ const Services = {
 
   searchPost: payload => {
     return axios
-      .get(`${URL}/posts${payload.params}`)
+      .get(`${URL}posts${payload.params}`)
       .then(res => {
         return {
           data: res.data

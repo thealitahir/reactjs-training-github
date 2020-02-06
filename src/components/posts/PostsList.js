@@ -37,7 +37,7 @@ class PostsList extends React.Component {
       1
     );
     axios
-      .delete(`${URL}/posts/${post.id}`)
+      .delete(`${URL}posts/${post.id}`)
       .then(() => {
         this.setState({ success: true });
         this.getAllPosts();

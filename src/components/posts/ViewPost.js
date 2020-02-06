@@ -18,10 +18,10 @@ class ViewPost extends React.Component {
   }
 
   componentDidMount() {
-    axios.get(`${URL}/posts/${this.props.match.params.id}`).then(res => {
+    axios.get(`${URL}posts/${this.props.match.params.id}`).then(res => {
       this.setState({ post: res.data });
     });
-    axios.get(`${URL}/posts/${this.props.match.params.id}/likes`).then(res => {
+    axios.get(`${URL}posts/${this.props.match.params.id}/likes`).then(res => {
       if (res.data.length < 1) {
         this.setState({ likes: false });
       } else {

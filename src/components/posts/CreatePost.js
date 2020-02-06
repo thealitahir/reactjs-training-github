@@ -18,7 +18,7 @@ export default class CreatePost extends React.Component {
   }
   componentDidMount() {
     if (this.props.match.params.id) {
-      axios.get(`${URL}/posts/${this.props.match.params.id}`).then(res => {
+      axios.get(`${URL}posts/${this.props.match.params.id}`).then(res => {
         this.setState({
           id: res.data.id,
           title: res.data.title,
@@ -37,7 +37,7 @@ export default class CreatePost extends React.Component {
     const { title, body, tags, edit_gate, id } = this.state;
     if (edit_gate) {
       axios
-        .put(`${URL}/posts/${id}`, {
+        .put(`${URL}posts/${id}`, {
           title,
           body,
           tags
@@ -48,7 +48,7 @@ export default class CreatePost extends React.Component {
         .catch(err => {});
     } else {
       axios
-        .post(`${URL}/posts/`, {
+        .post(`${URL}posts/`, {
           title,
           body,
           tags
